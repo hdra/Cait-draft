@@ -1,0 +1,15 @@
+$white: #EEEEEE;
+//$white: #DFDFDF;
+$black: #272822;
+$gray: #8E927E;
+$accent1: #3CCBFB;
+$font1: 'Raleway', sans-serif;
+$font2: 'Oswald', sans-serif;
+
+@mixin transition{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
